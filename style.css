@@ -1,0 +1,128 @@
+#yourPokemon {
+    width: 20%;
+}
+.pokemon-image {
+    margin: 0 10px;
+    width: 25%;
+}
+
+body {
+    background-image: url(images/retro.jpg);
+}
+.random-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-pokemon {
+    background-size: cover;
+    border: none;
+    width: 25%;
+}
+.random-ball{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-primary {
+    background-image: url('./images/Poke_Ball.webp');
+    background-size: cover;
+    border: none;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.reset-button {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.reset-button:before {
+    content: '↺';
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.reset-button:hover {
+    background-color: #e2e6ea;
+    cursor: pointer;
+}
+.pokeball-button {
+    background-image: url('./images/Poke_Ball.webp');
+    background-size: cover;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.pokeball-button:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.pokemon-card {
+    background-image: url('./images/battle.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.pokemon-image {
+    width: 85%; 
+    height: auto;
+    border-radius: 50%;
+}
+
+.pokemonInfo{
+    margin-top: 10%;
+}
+
+#yourPokemon {
+    width: 70%;
+    padding: 0;
+}
