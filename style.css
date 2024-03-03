@@ -103,7 +103,8 @@ body {
     background-image: url('./images/battle.jpg');
     background-size: cover;
     background-position: center;
-    width: 10rem;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -115,6 +116,17 @@ body {
     width: 70%; 
     height: auto;
     border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .pokemon-card {
+        width: 90px;
+        height: 90px;
+    }
+
+    .pokemon-image {
+        width: 70%;
+    }
 }
 
 .pokemonInfo{
