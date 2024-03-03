@@ -1,16 +1,16 @@
 #yourPokemon {
-    width: 20%;
+    width: 15%;
 }
 .pokemon-image {
-    margin: 0 10px;
-    width: 25%;
+    margin: 0 5px;
+    width: 20%;
 }
 
 body {
-    background-image: url(images/retro.jpg);
+    background-image: url(images/retro3.jpeg);
 }
 .random-container {
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,10 +19,10 @@ body {
 .random-pokemon {
     background-size: cover;
     border: none;
-    width: 25%;
+    width: 20%;
 }
 .random-ball{
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -33,8 +33,8 @@ body {
     background-image: url('./images/Poke_Ball.webp');
     background-size: cover;
     border: none;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: relative;
     overflow: hidden;
 }
@@ -53,8 +53,8 @@ body {
 .reset-button {
     background-color: #f8f9fa;
     border: 1px solid #ced4da;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ body {
 
 .reset-button:before {
     content: '↺';
-    font-size: 20px;
+    font-size: 15px;
     color: #6c757d;
 }
 
@@ -75,8 +75,8 @@ body {
     background-image: url('./images/Poke_Ball.webp');
     background-size: cover;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     padding: 0;
 }
 
@@ -103,26 +103,26 @@ body {
     background-image: url('./images/battle.jpg');
     background-size: cover;
     background-position: center;
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 12px;
+    margin: 8px;
 }
 
 .pokemon-image {
-    width: 85%; 
+    width: 70%; 
     height: auto;
     border-radius: 50%;
 }
 
 .pokemonInfo{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 #yourPokemon {
-    width: 70%;
+    width: 50%;
     padding: 0;
 }
