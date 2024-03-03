@@ -103,8 +103,7 @@ body {
     background-image: url('./images/battle.jpg');
     background-size: cover;
     background-position: center;
-    width: 120px;
-    height: 120px;
+    width: 10rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
