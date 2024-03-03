@@ -113,15 +113,15 @@ body {
 }
 
 .pokemon-image {
-    width: 70%; 
-    height: auto;
+    width: 100%; 
+    /* height: auto; */
     border-radius: 50%;
 }
 
 @media (max-width: 768px) {
     .pokemon-card {
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
     }
 
     .pokemon-image {
